@@ -1,0 +1,199 @@
+/* for all  */
+*{padding: 0; margin: 0; box-sizing: border-box;}
+html{font-family: 'roboto'; font-size: 16px; color: #333; background-color: white;}
+
+section{
+padding: 40px 0px;
+}
+h2{
+text-transform: uppercase;
+font-size: 1.6rem;
+margin-bottom: 15px;
+letter-spacing: 2px;
+text-align: center;
+}
+hr{
+background-color:  orange;
+width: 100px;
+border: solid 2px orange;
+margin: 20px auto;
+}
+
+
+/* sec 6 >> offers */
+#offers{ 
+background-color: #F4F4F4FF;
+}
+#offers h2{
+margin-bottom: 10px;
+}
+.card{
+margin-left: 20px;
+margin-right: 20px;
+min-height:  100%; ;
+}
+.ofhed{
+height: 100%;
+background-color: #FCFCFCFF;
+width: 100%;
+
+}
+.ofhed p{
+padding: 10px;
+}
+.hp ,.hper{
+display: inline-block;
+color: orange;
+}
+.hp{
+font-size: 40px;
+padding-left: 20px;
+}
+
+.mdhed{
+height: 100%;
+margin-top: 3px;
+margin-bottom: 3px;
+background-color: #FFFFFFFF;
+width: 100%;
+}
+.mdhed table{
+padding: 15px;
+}
+
+.mdhed i{
+color: orange;
+margin-right: 20px;
+}
+.mdhed tr{
+display: block;
+width: 100%;
+padding-top: 3px;
+font-size: 14px;
+line-height: 190%;
+padding-left: 10px;
+}
+
+.fothed{
+height: 100%;
+background-color: #FFFFFFFF;
+width: 100%;
+}
+.card h3{
+
+margin: 10px;
+padding-top: 10px;
+position: relative;
+}
+.fothed a{
+border: solid orange 1px;
+color: orange;
+text-decoration: none;
+margin-right: 25px;
+padding: 10px 20px;
+border-radius: 30px;
+text-align: center;
+display: inline-block;
+margin-top: 10px;
+margin-bottom: 10px;
+margin-left: 28%;
+}
+.fothed a:hover{
+color: white;   
+background-color: orange;
+}
+
+
+
+
+/* sec 7 >> contact */
+
+
+
+label{
+color: orange;
+font-size: 18px;
+}
+input[type=text] , input[type=email] , select , textarea{
+width: 100%;
+padding: 7px;
+margin-bottom: 15px;
+border: solid #ccc 2px;
+border-radius: 5px;
+}
+input[type=checkbox]{
+margin-bottom: 30px;
+}
+
+button{
+border: solid orange 2px;
+padding: 20px 40px;
+background-color: orange;
+color: white;
+border-radius: 20px;
+font-size: 24px;
+}
+button:hover{
+background-color: transparent;
+color: orange;
+}
+
+
+
+/* footer */
+footer{
+padding: 30px 0px;
+background-color: #333;
+}
+footer p{
+color: #ddd;
+text-align: center;
+margin-top: 30px;
+}
+.footer-nav{
+float: left;
+list-style: none;
+}
+
+.footer-nav li{
+display: inline-block;
+margin-right: 10px;
+}
+.footer-nav li a{
+color: #888;
+text-decoration: none;
+text-transform: capitalize;
+}
+.footer-nav li a:hover{
+color:#ddd;
+text-decoration: underline;
+
+}
+
+
+
+.social-nav{
+float: right;
+list-style: none;
+}
+.social-nav li{
+display: inline-block;
+margin-right: 10px;
+}
+.social-nav li a{
+color: #888;
+text-decoration: none;
+text-transform: capitalize;
+}
+.social-nav li a:hover{
+color: #ddd ;
+text-decoration: underline;
+}
+
+
+
+
+
+
+
+
